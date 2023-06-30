@@ -17,7 +17,7 @@ public class media2 {
         System.out.print("Insira a quarta nota: ");
         num4 = scanner.nextFloat();
 
-        float media = (float) ((num1 + num2 + num3 + num4) / 4.0);
+        float media = (num1 + num2 + num3 + num4) / 4);
 
         System.out.printf("Média final = %.1f.\n", media);
 
